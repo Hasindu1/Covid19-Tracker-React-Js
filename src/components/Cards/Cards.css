@@ -1,0 +1,45 @@
+#img-container-1{
+ height:3rem;
+ color: #D70F28 ;
+}
+#img-container-2{
+ height:3rem;
+ color: #12D1A1  ;
+}
+
+#img-container-3{
+ height:3rem;
+ color:#3333ff  ;
+}
+.card{
+ height: 15rem;
+}
+.card-upper-container{
+ height:7rem;
+}
+.card-middle-container{
+ height: 7rem;
+}
+.card-bottom-container-1{
+ height: 1rem;
+ background-color: #D70F28;
+}
+.card-bottom-container-2{
+ height: 1rem;
+ background-color: #12D1A1;
+}
+.card-bottom-container-3{
+ height: 1rem;
+ background-color: #3333ff;
+}
+@media (max-width: 1200px) {
+ h4 {
+      font-size: larger;
+
+ }
+ h3 {
+  font-size: larger;
+ }
+
+}
+
