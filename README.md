@@ -49,7 +49,7 @@ An app to view latest global or country by country Covid19 updates .
   <img src="../master/ui-images/UI2.PNG"/>
  </p>
  
-##Configurations
+## Configurations
 
 *  Unzip the download repository and open the project file with Webstorm IDE.
 *  Then open the terminal with the current project path and run the project using npm start .
