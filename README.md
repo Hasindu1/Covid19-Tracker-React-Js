@@ -1,6 +1,10 @@
 # Covid19-Tracker
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103) 
 
+## Introduction
+
+An app to view latest global or country by country Covid19 updates .
+
 ## Technology stack
 
 ### Languages 
@@ -32,9 +36,7 @@
 
 *  https://5eec7016df8ac19ae6aa9c12--covid19-tracker-pro.netlify.app/
 
-## Introduction
 
-An app to view latest global or country by country Covid19 updates .
 
 ## Some user interfaces of the system
  
