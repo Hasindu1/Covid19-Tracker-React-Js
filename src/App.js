@@ -44,7 +44,7 @@ export default class App extends Component{
     render(){
         return(<React.Fragment>
 
-         <div className="container">    <div className="img-container container d-inline-block "></div> <h1 className="text-center">COVID 19 Tracker </h1></div>
+            <div className="container">   <h1 className="text-center"><span className="img-container container mr-3"></span>COVID 19 Tracker </h1></div>
 
             <Cards data={this.state.data} countryData={this.state.countryData}></Cards>
 
