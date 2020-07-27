@@ -4,6 +4,7 @@ import Cards from "./components/Cards/Cards";
 import Chart from "./components/Chart/Chart";
 import CountryPicker from "./components/CountryPicker/CountryPicker";
 import {featchData,fetchCountryData} from "./api/api";
+import ParticlesBg from "particles-bg";
 import './App.css';
 
 export default class App extends Component{
@@ -26,14 +27,14 @@ export default class App extends Component{
     }
     handleCountryChanged = async(country)=>{
 
-        console.log("CAMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+
        let receivedData = null;
         if(country !== "Global") {
             receivedData = await fetchCountryData(country);
             console.log(receivedData);
         }
         if(country === "Global") {
-            console.log("Cameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
+
             this.setState({ global :true,countryData: this.state.data});
         }
         else
@@ -43,13 +44,13 @@ export default class App extends Component{
     render(){
         return(<React.Fragment>
 
-         <div className="container">    <div className="img-container container d-inline-block "></div> <h1 className="text-center mb-5">COVID 19 Tracker </h1></div>
+         <div className="container">    <div className="img-container container d-inline-block "></div> <h1 className="text-center">COVID 19 Tracker </h1></div>
 
             <Cards data={this.state.data} countryData={this.state.countryData}></Cards>
 
             <Chart countryData={this.state.countryData} globalStatus={this.state.global} selectedCountry={this.state.selectedCountry}changeCountry={this.handleCountryChanged }></Chart>
 
-
+            <ParticlesBg type="cobweb" bg={true}/>
         </React.Fragment>)
     }
 

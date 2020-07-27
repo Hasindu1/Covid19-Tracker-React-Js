@@ -1,6 +1,7 @@
 import React,{Component} from "react";
 import {fetchDailyData} from "../../api/api";
 import{Line,Bar} from 'react-chartjs-2';
+import './Chart.css';
 import CountryPicker from "../CountryPicker/CountryPicker";
 
 
@@ -39,7 +40,7 @@ export default class Chart extends Component{
                    lineChart = "Loading";
                } else {
 
-                   lineChart = <Line data={
+                   lineChart = <Line  data={
                        {
                            labels: this.state.dailyData.map(item => {
                                return (item.date)
@@ -73,7 +74,7 @@ export default class Chart extends Component{
         return(
          <div className="container">
              <div className="row ">
-                 <div className="col-lg-10">
+                 <div className="col-lg-10 ">
                      {lineChart}
                  </div>
                  <div className="col-lg-2 mt-4 align-items-center">

@@ -89,10 +89,10 @@ else if(boolCountry && !data){
                 <div className=" card  col-lg-3  mt-3 mt-lg-0">
 
                     <div className="row card-upper-container pt-4 ">
-                        <div className="col-6 ">
+                        <div className="col-5 ">
                             <div id="img-container-3" className="fa fa-user fa-3x "></div>
                         </div>
-                        <div className="col-6 ">
+                        <div className="col-7 ">
                             <h4>Infected</h4>
                             <h3>{data.confirmed.value}</h3>
                         </div>
