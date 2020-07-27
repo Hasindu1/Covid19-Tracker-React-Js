@@ -34,7 +34,7 @@ An app to view latest global or country by country Covid19 updates .
 
 ## Deployed URL
 
-*  https://5eec7016df8ac19ae6aa9c12--covid19-tracker-pro.netlify.app/
+*  https://5f1f4a0b31526d3686a55a7d--covid19-tracker-pro.netlify.app/
 
 
 
